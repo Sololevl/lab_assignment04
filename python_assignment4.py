@@ -53,7 +53,7 @@ def main():
     if choice == '1':
         city = input("Enter the city: ")
         f_f = f_t.search_by_city(city)
-        flight_t.print_fli(f_f)
+        f_t.print_fli(f_f)
     elif choice == '2':
         city = input("Enter the city: ")
         f_f = f_t.search_flights_from_city(city)
